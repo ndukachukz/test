@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1128%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1129)'%3e%3c/rect%3e%3cpath d='M62.72223994941884 421.7082684576548L187.10510364799612 502.652080245071 196.15434787766338 373.241858641123z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M346.5676313334542 314.42821140403515L252.7823861246227 241.1551473439671 273.2945672733861 408.21345661286665z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M977.1027957725859 130.04115005397418L1060.9897549285745 118.25160679354616 1001.3619604599381-1.6840603102228329z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1449.0421363941016 383.6219355618946L1330.393204179748 400.29695553184735 1347.0682241497007 518.9458877462009 1465.7171563640543 502.27086777624817z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M124.77781913477658 514.2084376788321L182.0908004682633 632.0022511981257 247.77207155369612 538.1996748171763z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1356.5854416230202 377.0629291661058L1382.762745987186 462.68503369049427 1498.107250591686 380.60802488205115z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1128'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='139.29%25' x2='84.72%25' y2='-39.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1129'%3e%3cstop stop-color='rgba(20%2c 30%2c 48%2c 1)' offset='0.27'%3e%3c/stop%3e%3cstop stop-color='rgba(20%2c 30%2c 48%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  object-fit: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 10px;
+}
+
+nav .navlink {
+  text-decoration: none;
+  color: white;
+}
+nav .navlink:hover {
+  text-decoration: underline;
+  color: rgb(167, 167, 167);
+}
